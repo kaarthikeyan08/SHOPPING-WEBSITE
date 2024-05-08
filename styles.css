@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.extra{
+    background-color: #007bff;
+    padding: 20px;
+    width: 100%;
+    border-radius: 4px;
+}
+.hero a{
+    text-decoration: none;
+    margin-left: 200px;
+    color: #f0f0f0;
+}
+.hero a:hover{
+    background-color: #fff;
+    color: #007bff;
+    padding: 20px;
+    border-radius: 4px;
+}
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px ;
+    border-radius: 4px;
+    text-align: center;
+}
+header h1 {
+    margin: 10px;
+    padding: 10px;
+    font-size: 70px;
+    display: inline;
+}
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+}
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    color: #f0f0f0;
+    background-color: #fff;
+    padding: 10px;
+    color: #007bff;
+    border-radius: 4px;
+}
+main {
+    padding: 20px ;
+}
+footer {
+    background-color: #f0f0f0;
+    padding: 20px ;
+    text-align: center;
+}
+form {
+    margin: 40px;
+    text-align: center;
+
+}
+input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button[type="submit"] {
+    padding: 13px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.image{
+    width: 250px;
+    height: 400px;
+}
+.image2{
+    width: 300px;
+    height: 400px;
+}
+.image3{
+    width: 300px;
+    height: 350px;
+}
+.image4{
+    width: 320px;
+    height: 350px;
+}
+.image6{
+    height: 430px;
+}
+.product {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+.product:hover {
+    transform:rotateZ(-7px);
+}
+.product img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.product h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.product p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.rating {
+    display: inline-block;
+    background-color: #f39c12;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
